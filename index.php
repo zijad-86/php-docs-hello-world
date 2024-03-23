@@ -12,4 +12,6 @@ $response = json_decode($response, true);
 // Handle the response as needed
 echo $response;
 
-?>
+// show the response in a Formated Table
+echo "<table border='1'>";
+echo "<tr><td>Id</td><td>Name</td><td></td></tr>"; // Fix the incomplete line
